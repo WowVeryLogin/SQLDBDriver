@@ -1,0 +1,19 @@
+name "hdb"
+description "Database helper"
+authors "Oleg Butko (deviator)" "Denis Davydov"
+copyright "Copyright © 2016, QuickAdv"
+license "MIT"
+
+//dependency "vibe-d:data" version="~>0.7.30-rc.2"
+dependency "putil" path="../putil/"
+
+configuration "default" {
+
+}
+
+configuration "postgres" {
+    dependency "vibe-d-postgresql" version="~>0.2.19"
+    versions "postgres"
+}
+
+targetType "library"
