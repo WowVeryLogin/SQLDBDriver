@@ -1,2 +1,2 @@
 # SQLDBDriver
-Сериализатор/десериализатор в/из структур D в sql-запросы
+Basic ORM for sql databases
